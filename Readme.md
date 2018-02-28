@@ -4,7 +4,7 @@
 This repository helds the code used in the experiments of the following paper:
 
 ```sh
-Parisi, G. I., Barros, P., Fu, D., Magg, S., Wu, H., Liu, X., Wermter, S. A Neurorobotic Experiment for Crossmodal Conflict Resolution in Complex Environments. Submited to: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018. 
+Parisi, G. I., Barros, P., Fu, D., Magg, S., Wu, H., Liu, X., Wermter, S. A Neurorobotic Experiment for Crossmodal Conflict Resolution in Complex Environments. Submitted to: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018. 
 ```
 
 <b>Data Set </br>
