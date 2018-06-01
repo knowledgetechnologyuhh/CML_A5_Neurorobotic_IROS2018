@@ -4,6 +4,7 @@
 <b>A Neurorobotic Experiment for Crossmodal Conflict Resolution in Complex Environments</br> <br>
 
 
+
 This repository helds the code used in the experiments of the following paper:
 
 ```sh
@@ -13,6 +14,8 @@ Parisi, G. I., Barros, P., Fu, D., Magg, S., Wu, H., Liu, X., Wermter, S. A Neur
 A Neurorobotic Experiment for Crossmodal Conflict Resolution in Complex Environments
 Crossmodal conflict resolution is a crucial compo nent of robot sensorimotor coupling through interaction with the environment for swift and robust behaviour also in noisy conditions. In this paper, we propose a neurorobotic experiment in which an iCub robot exhibits human-like responses in a complex crossmodal environment. To better understand how humans deal with multisensory conflicts, we conducted a behavioural study exposing 33 subjects to congruent and incongruent dynamic audio-visual cues. In contrast to previous studies using simplified stimuli, we designed a scenario with four animated avatars and observed that the magnitude and extension of the visual bias are related to the semantics embedded in the scene, i.e., visual cues that are congruent with environmental statistics (moving lips and vocalization) induce a stronger bias. We propose a deep learning model that processes stereophonic sound, facial features, and body motion to trigger a discrete response resembling the collected behavioural data. After training, we exposed the iCub to the same experimental conditions as the human subjects, showing that the robot can replicate similar responses in real time. Our interdisciplinary work provides important insights into how crossmodal conflict resolution can be modelled in robots and introduces future research directions for the efficient combination of sensory drive with internally generated knowledge and expectations.
 <br>
+
+
 <b>Experimental Scenario</br> <br>
 
 The Audio-Visual localization task consisted of the subjects having to select which avatar (out of the 4 avatars in the scene) they believe the auditory cue is coming from. The 4 avatars may move their lips and/or arm in temporal correspondence with an auditory cue. The latter consists of a vocalized combination of 3 syllables (all permutations without repetition composed of ”ha”, ”wa”, ”ba”). The duration of both visual and auditory stimuli is 1000 ms. The experiment comprised 5 AV conditions:
@@ -22,6 +25,7 @@ Moving Lips: Auditory cue and one avatar with moving lips.<br>
 Moving Arm: Auditory cue and one avatar with a moving arm.<br>
 Moving Lips+Arm: Auditory cue and one avatar with moving lips and arm.<br>
 Moving Lips–Arm: Auditory cue and one avatar with moving lips and another avatar with a moving arm.<br>
+
 
 <b>Neurorobotic Model<br>
 
